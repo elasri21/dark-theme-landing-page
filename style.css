@@ -23,7 +23,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   background-color: hsl(218, 28%, 13%);
   padding: 50px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page {
     max-width: 375px;
     padding: 30px;
@@ -39,7 +39,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page header .logo {
   width: 120px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page header .logo {
     width: 30%;
   }
@@ -50,7 +50,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page header nav {
   width: 30%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page header nav {
     width: 60%;
   }
@@ -64,7 +64,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 
 #page header nav ul li a {
   display: block;
-  color: hsl(0, 0%, 100%, 0.8);
+  color: #ffffffcc;
   font-weight: 500;
   font-family: "Raleway", sans-serif;
 }
@@ -79,7 +79,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   text-align: center;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #get-started {
     width: 100%;
   }
@@ -88,7 +88,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   width: 100%;
   margin-bottom: 15px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #get-started .image {
     width: 100%;
   }
@@ -106,7 +106,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   margin-right: auto;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #get-started h1 {
     width: 100%;
   }
@@ -122,7 +122,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   margin-right: auto;
   margin-bottom: 25px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #get-started p {
     width: 100%;
   }
@@ -142,7 +142,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   border-radius: 20px;
   cursor: pointer;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #get-started button {
     width: 60%;
   }
@@ -156,7 +156,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #infos {
     display: block;
     width: 100%;
@@ -165,7 +165,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #infos .info {
   width: 40%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #infos .info {
     width: 100%;
     margin-bottom: 20px;
@@ -199,7 +199,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   justify-content: space-between;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #see-how-fylo-work {
     display: block;
   }
@@ -207,7 +207,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #see-how-fylo-work > div {
   width: 40%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #see-how-fylo-work > div {
     width: 100%;
     text-align: left;
@@ -223,7 +223,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   margin-bottom: 15px;
   width: 60%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #see-how-fylo-work .info-fylo h2 {
     width: 100%;
   }
@@ -237,7 +237,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #see-how-fylo-work .info-fylo .link-how {
   width: 104px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #see-how-fylo-work .info-fylo .link-how {
     width: 50%;
   }
@@ -273,7 +273,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #people {
     padding: 50px 30px;
     display: block;
@@ -284,7 +284,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   padding: 20px 15px;
   background-color: hsl(219, 30%, 18%);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #people #person {
     width: 100%;
     margin-bottom: 15px;
@@ -334,7 +334,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   top: 100px;
   z-index: 111;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #access {
     width: 90%;
     padding: 15px 20px;
@@ -360,7 +360,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   font-size: 75%;
   font-weight: 400;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #access form input {
     display: block;
   }
@@ -370,7 +370,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   width: 70%;
   margin-right: 10px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #access form input#email {
     margin-bottom: 15px;
     width: 100%;
@@ -381,7 +381,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   cursor: pointer;
   color: hsl(0, 0%, 100%);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #access form input#submit {
     width: 100%;
   }
@@ -403,7 +403,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #footer {
     display: block;
   }
@@ -411,7 +411,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #footer .logo-2 {
   width: 30%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #footer .logo-2 {
     width: 100%;
   }
@@ -426,7 +426,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #footer .logo-2 .disc {
   display: flex;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #footer .logo-2 .disc {
     display: block;
   }
@@ -437,7 +437,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #footer .logo-2 .disc p,
 #page #footer .contact-us p {
   font-weight: 400;
-  color: hsl(0, 0%, 100%, 0.7);
+  color: #ffffffb3;
   font-size: 80%;
   margin-bottom: 15px;
 }
@@ -454,7 +454,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #footer .links ul {
   display: flex;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #footer .links ul {
     display: block;
   }
@@ -462,7 +462,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #footer .links ul div:first-child {
   margin-right: 15px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #footer .links ul div:first-child {
     margin-right: 0;
   }
@@ -484,7 +484,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #footer .social {
   margin-right: 20px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #page #footer .social {
     margin-right: 0;
     text-align: center;
@@ -514,13 +514,7 @@ font-family for Headings, Call-to-actions, Header Navigation is "Raleway"
 #page #footer .social a:hover i {
   color: hsl(176, 68%, 64%);
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
 
 /*
   i get to point where i have to fix the phone size

@@ -1,0 +1,19 @@
+// family
+$family: "Open Sans", sans-serif;
+// size
+$size: 16px;
+
+// colors
+$main-bg: hsl(218, 28%, 13%);
+$box-bg: hsl(219, 30%, 18%);
+$text-color: #ffffffcc;
+$light-text-color: #ffffffb3;
+$white: hsl(0, 0%, 100%);
+$linear-g-1: hsl(176, 68%, 64%);// and btn hover
+$linear-g-2: hsl(198, 60%, 50%);
+$error-color: hsl(0, 100%, 63%);
+$footer-bg: hsl(216, 53%, 9%);
+
+// breakpoint
+$small: '(min-width: 768px)';
+$mobile: '(max-width: 767px)';

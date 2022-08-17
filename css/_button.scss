@@ -1,0 +1,28 @@
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 14px;
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    &.sign-in {
+        color: $text-color;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &.started {
+        background-image: linear-gradient(to right, $linear-g-1, $linear-g-2);
+        color: $white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        &:hover {
+            opacity: .8;
+        }
+    }
+}

@@ -1,0 +1,188 @@
+.get-started {
+    @media #{$small} {
+        padding: 30px 50px;
+    }
+    padding: 20px 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    .image {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+
+    }
+    h1, p {
+        text-align: center;
+    }
+}
+
+// information section
+.information {
+    @media #{$small} {
+        padding: 30px 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    padding: 20px 20px;
+    .info {
+        width: fit-content;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        h2 {
+            margin-top: 20px;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+.fylo-work {
+    @media #{$small} {
+        padding: 30px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .illus {
+            width: 45%;
+        }
+        .info-fylo {
+            width: 50%;
+        }
+    }
+    padding: 20px 20px;
+    .illus {
+        img {
+            width: 100%;
+        }
+    }
+    .info-fylo {
+        a {
+            color: $linear-g-1;
+            text-decoration: underline;
+            &:hover {
+                color: $text-color;
+            }
+        }
+    }
+
+
+}
+//people section
+.people {
+    @media #{$small} {
+        padding: 30px 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 20px;
+        .person {
+            margin-bottom: 0 !important;
+        }
+    }
+    padding: 20px 20px;
+    .person {
+        padding: 15px;
+        background-color: $box-bg;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        .profile {
+            display: flex;
+            align-items: center;
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .name {
+                width: calc(100% - 50px);
+                h3 {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+//form section
+.relative {
+    @media #{$small} {
+        padding: 30px 50px;
+        position: relative;
+        height: 150px;
+        .access {
+            width: 80%;
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            form {
+                input {
+                    display: inline-block !important;
+                    width: auto !important;
+                    &.email {
+                        width: calc(100% - 185px) !important;
+                    }
+                }
+                .error {
+                    top: 40px;
+                    bottom: unset;
+                }
+            }
+        }
+    }
+    padding: 20px 20px;
+    .access {
+        background-color: $box-bg;
+        padding: 15px 15px 25px 15px;
+        border-radius: 4px;
+        h2 {
+            text-align: center;
+            font-size: 22px;
+        }
+        p {
+            text-align: center;
+        }
+        form {
+            position: relative;
+            input {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .email {
+                background-color: $white;
+            }
+            .submit {
+                background-image: linear-gradient(to right, $linear-g-1, $linear-g-2);
+                color: $white;
+                transition: all .3s ease-in-out;
+                cursor: pointer;
+                &:hover {
+                    background-image: linear-gradient(to right, $linear-g-1, $linear-g-1);
+                }
+            }
+            .error {
+                position: absolute;
+                left: 10px;
+                top: unset;
+                text-align: left;
+                color: $error-color;
+                font-size: 12px;
+                opacity: 0;
+            }
+        }
+
+
+    }
+}
+
